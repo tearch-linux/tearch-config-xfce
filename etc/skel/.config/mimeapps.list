@@ -1,0 +1,15 @@
+[Added Associations]
+application/x-theme=libreoffice-writer.desktop;
+application/x-alpm-package=pamac-installer.desktop;org.kde.ark.desktop;
+text/plain=org.gnome.gedit.desktop;org.kde.ark.desktop;
+application/gzip=libreoffice-startcenter.desktop;xfce4-notes.desktop;
+image/jpeg=ristretto.desktop;
+application/octet-stream=libreoffice-writer.desktop;
+application/x-shellscript=org.gnome.gedit.desktop;
+application/x-desktop=org.gnome.gedit.desktop;
+text/x-c++src=org.gnome.gedit.desktop;
+text/x-chdr=org.gnome.gedit.desktop;
+application/x-designer=org.gnome.gedit.desktop;
+application/xml=org.gnome.gedit.desktop;
+image/svg+xml=ristretto.desktop;org.inkscape.Inkscape.desktop;
+text/vnd.qt.linguist=atom.desktop;org.gnome.gedit.desktop;

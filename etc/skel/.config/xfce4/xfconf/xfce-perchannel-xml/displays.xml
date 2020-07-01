@@ -1,35 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<channel name="displays" version="1.0">
-  <property name="ActiveProfile" type="string" value="Default"/>
-  <property name="Default" type="empty">
-    <property name="Virtual-1" type="string" value="Virtual-1">
-      <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value=""/>
-      <property name="Resolution" type="string" value="1360x768"/>
-      <property name="RefreshRate" type="double" value="60.015162"/>
-      <property name="Rotation" type="int" value="0"/>
-      <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="true"/>
-      <property name="Position" type="empty">
-        <property name="X" type="int" value="0"/>
-        <property name="Y" type="int" value="0"/>
+<channel name="xfce4-desktop" version="1.0">
+   <property name="backdrop" type="empty">
+      <property name="screen0" type="empty">
+         <property name="monitor0" type="empty">
+            <property name="color-style" type="int" value="0" />
+            <property name="image-style" type="int" value="5" />
+            <property name="last-image" type="string" value="/usr/share/backgrounds/tearch-wallpapers/tearchlinuxwallpaper20.jpg" />
+            <property name="backdrop-cycle-enable" type="bool" value="true" />
+            <property name="backdrop-cycle-timer" type="uint" value="10" />
+            <property name="backdrop-cycle-random-order" type="bool" value="false" />
+            <property name="backdrop-cycle-period" type="int" value="1" />
+         </property>
+         <property name="workspace0" type="empty">
+            <property name="color-style" type="int" value="0" />
+            <property name="image-style" type="int" value="5" />
+            <property name="last-image" type="string" value="/usr/share/backgrounds/tearch-wallpapers/tearchlinuxwallpaper13.jpg" />
+            <property name="backdrop-cycle-enable" type="bool" value="true" />
+            <property name="backdrop-cycle-timer" type="uint" value="15" />
+            <property name="backdrop-cycle-random-order" type="bool" value="true" />
+         </property>
       </property>
-    </property>
-  </property>
-  <property name="Fallback" type="empty">
-    <property name="Virtual-1" type="string" value="Virtual-1">
-      <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value=""/>
-      <property name="Resolution" type="string" value="1360x768"/>
-      <property name="RefreshRate" type="double" value="60.015162"/>
-      <property name="Rotation" type="int" value="0"/>
-      <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="true"/>
-      <property name="Position" type="empty">
-        <property name="X" type="int" value="0"/>
-        <property name="Y" type="int" value="0"/>
+      <property name="last" type="empty">
+         <property name="window-width" type="int" value="673" />
+         <property name="window-height" type="int" value="550" />
       </property>
-    </property>
-  </property>
+   </property>
+   <property name="last" type="empty">
+      <property name="window-width" type="int" value="632" />
+      <property name="window-height" type="int" value="570" />
+   </property>
 </channel>
